@@ -22,3 +22,12 @@ function writeCards( namesArray, event ) {
     }
     console.log( number );
   }
+
+  //you could do
+//   function countDown(10) {
+//     while ( 10 > 0 ) {
+//       console.log( 10); saying print 10 and take -1 each time till you get to 0
+//       number -= 1;
+//     }
+//     console.log( 10 );
+//   }
