@@ -1,0 +1,781 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200419.214949.60397.0.001.json",
+    "dumpEventTime": "2020-04-19T21:49:49Z",
+    "dumpEventTimeStamp": "1587347389791",
+    "processId": 60397,
+    "threadId": null,
+    "cwd": "/Users/richardbobo/Development/Mod3/js-looping-and-iteration-looping-code-along-dc-web-030920",
+    "commandLine": [
+      "/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node",
+      "/Users/richardbobo/Development/Mod3/js-looping-and-iteration-looping-code-along-dc-web-030920/node_modules/mocha/bin/_mocha",
+      "-R",
+      "mocha-multi",
+      "--reporter-options",
+      "spec=-,json=.results.json"
+    ],
+    "nodejsVersion": "v13.10.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "13.10.1",
+      "v8": "7.9.317.25-node.29",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.10.1/node-v13.10.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.10.1/node-v13.10.1.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "18.7.0",
+    "osVersion": "Darwin Kernel Version 18.7.0: Mon Feb 10 21:08:45 PST 2020; root:xnu-4903.278.28~1/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 56904250,
+        "nice": 0,
+        "sys": 28590130,
+        "idle": 248998370,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2619220,
+        "nice": 0,
+        "sys": 1828660,
+        "idle": 330038990,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 53857410,
+        "nice": 0,
+        "sys": 19147100,
+        "idle": 261483730,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2511090,
+        "nice": 0,
+        "sys": 1476490,
+        "idle": 330499150,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 45215490,
+        "nice": 0,
+        "sys": 15130300,
+        "idle": 274142160,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2522930,
+        "nice": 0,
+        "sys": 1271590,
+        "idle": 330692050,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 35918400,
+        "nice": 0,
+        "sys": 11569030,
+        "idle": 287000230,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2557870,
+        "nice": 0,
+        "sys": 1125290,
+        "idle": 330803260,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 29397040,
+        "nice": 0,
+        "sys": 8924200,
+        "idle": 296166120,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2348250,
+        "nice": 0,
+        "sys": 965550,
+        "idle": 331172470,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 26298430,
+        "nice": 0,
+        "sys": 7462560,
+        "idle": 300726080,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2196830,
+        "nice": 0,
+        "sys": 836260,
+        "idle": 331453020,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en5",
+        "internal": false,
+        "mac": "ac:de:48:00:11:22",
+        "address": "fe80::aede:48ff:fe00:1122",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:b0:56:26",
+        "address": "fe80::82f:e73:751:8726",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 10
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:b0:56:26",
+        "address": "10.0.0.119",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:b0:56:26",
+        "address": "2601:14d:8702:90d0:18e7:44f5:5f72:64f0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:b0:56:26",
+        "address": "2601:14d:8702:90d0:b053:760d:c133:5854",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:b0:56:26",
+        "address": "2601:14d:8702:90d0::9db0",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:b0:56:26",
+        "address": "2601:14d:8702:90d0:e47a:a7c6:dbb6:45ce",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "0a:1c:c8:6f:0c:03",
+        "address": "fe80::81c:c8ff:fe6f:c03",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::4b73:2b86:a6c3:9f34",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1752:4244:5ea7:87cf",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      }
+    ],
+    "host": "Richards-MacBook-Pro.local"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00000001001a73bc",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000100096ff7",
+      "symbol": "node::OnFatalError(char const*, char const*) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001001dafd7",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001001daf73",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010035da45",
+      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001003ab71d",
+      "symbol": "v8::internal::EvacuateNewSpaceVisitor::Visit(v8::internal::HeapObject, int) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010038ed4b",
+      "symbol": "void v8::internal::LiveObjectVisitor::VisitBlackObjectsNoFail<v8::internal::EvacuateNewSpaceVisitor, v8::internal::MajorNonAtomicMarkingState>(v8::internal::MemoryChunk*, v8::internal::MajorNonAtomicMarkingState*, v8::internal::EvacuateNewSpaceVisitor*, v8::internal::LiveObjectVisitor::IterationMode) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010038e98f",
+      "symbol": "v8::internal::FullEvacuator::RawEvacuatePage(v8::internal::MemoryChunk*, long*) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010038e60e",
+      "symbol": "v8::internal::Evacuator::EvacuatePage(v8::internal::MemoryChunk*) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001003b0b72",
+      "symbol": "v8::internal::PageEvacuationTask::RunInParallel(v8::internal::ItemParallelJob::Task::Runner) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010037f882",
+      "symbol": "v8::internal::ItemParallelJob::Task::RunInternal() [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010037fd1a",
+      "symbol": "v8::internal::ItemParallelJob::Run() [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000100390550",
+      "symbol": "void v8::internal::MarkCompactCollectorBase::CreateAndExecuteEvacuationTasks<v8::internal::FullEvacuator, v8::internal::MarkCompactCollector>(v8::internal::MarkCompactCollector*, v8::internal::ItemParallelJob*, v8::internal::MigrationObserver*, long) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000100390120",
+      "symbol": "v8::internal::MarkCompactCollector::EvacuatePagesInParallel() [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001003843ee",
+      "symbol": "v8::internal::MarkCompactCollector::Evacuate() [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001003819ba",
+      "symbol": "v8::internal::MarkCompactCollector::CollectGarbage() [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010035dced",
+      "symbol": "v8::internal::Heap::MarkCompact() [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010035b604",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000100359ea6",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000000010036582a",
+      "symbol": "v8::internal::Heap::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001003658b1",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000100332bf6",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x0000000100672a08",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001009aec79",
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001009afab5",
+      "symbol": "Builtins_StringAdd_CheckNone [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x00000001009f76e9",
+      "symbol": "Builtins_StringPrototypeConcat [/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node]"
+    },
+    {
+      "pc": "0x000034284c897b4d",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 337317888,
+    "totalCommittedMemory": 335840608,
+    "usedMemory": 318047256,
+    "availableMemory": 178306024,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33328,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33489472,
+        "capacity": 16758784,
+        "used": 16726304,
+        "available": 32480
+      },
+      "old_space": {
+        "memorySize": 1048576,
+        "committedMemory": 219872,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 524288,
+        "committedMemory": 300128,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 1839104,
+        "committedMemory": 1708464,
+        "capacity": 1272240,
+        "used": 1272240,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 300040192,
+        "committedMemory": 300040192,
+        "capacity": 300012888,
+        "used": 300012888,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 178273544,
+        "used": 0,
+        "available": 178273544
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 26.3792,
+    "kernelCpuSeconds": 1.84014,
+    "cpuConsumptionPercent": 235.161,
+    "maxRss": 2500174282752,
+    "pageFaults": {
+      "IORequired": 38,
+      "IONotRequired": 650864
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "npm_config_save_dev": "",
+    "npm_config_legacy_bundling": "",
+    "npm_config_dry_run": "",
+    "BUNDLER_ORIG_PATH": "/Users/richardbobo/.rvm/gems/ruby-2.6.1/bin:/Users/richardbobo/.rvm/gems/ruby-2.6.1@global/bin:/Users/richardbobo/.rvm/rubies/ruby-2.6.1/bin:/Users/richardbobo/.nvm/versions/node/v13.10.1/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/richardbobo/.rvm/gems/ruby-2.6.1/bin:/Users/richardbobo/.rvm/gems/ruby-2.6.1@global/bin:/Users/richardbobo/.rvm/rubies/ruby-2.6.1/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local:/usr/local/sbin:/Users/richardbobo/.rvm/bin:/Users/richardbobo/.rvm/bin",
+    "npm_config_viewer": "man",
+    "npm_config_only": "",
+    "npm_config_commit_hooks": "true",
+    "npm_config_browser": "",
+    "npm_package_gitHead": "f2a4f8d4179d1ac894890aff19dbe07f0aabd802",
+    "npm_package_dependencies_mocha": "^5.2.0",
+    "npm_config_also": "",
+    "npm_config_sign_git_commit": "",
+    "npm_config_rollback": "true",
+    "TERM_PROGRAM": "vscode",
+    "rvm_bin_path": "/Users/richardbobo/.rvm/bin",
+    "NODE": "/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node",
+    "npm_config_usage": "",
+    "npm_config_audit": "true",
+    "INIT_CWD": "/Users/richardbobo/Development/Mod3/js-looping-and-iteration-looping-code-along-dc-web-030920",
+    "npm_package_homepage": "https://github.com/learn-co-curriculum/js-looping-and-iteration-looping-code-along#readme",
+    "NVM_CD_FLAGS": "-q",
+    "GEM_HOME": "/Users/richardbobo/.rvm/gems/ruby-2.6.1",
+    "npm_config_globalignorefile": "/Users/richardbobo/.nvm/versions/node/v13.10.1/etc/npmignore",
+    "BUNDLER_ORIG_MANPATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh",
+    "npm_config_shell": "/bin/zsh",
+    "npm_config_maxsockets": "50",
+    "npm_config_init_author_url": "",
+    "npm_config_shrinkwrap": "true",
+    "npm_config_parseable": "",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "BUNDLER_ORIG_GEM_HOME": "/Users/richardbobo/.rvm/gems/ruby-2.6.1",
+    "TMPDIR": "/var/folders/_5/978s8s7115q3p4c4rzq7sd400000gn/T/",
+    "IRBRC": "/Users/richardbobo/.rvm/rubies/ruby-2.6.1/.irbrc",
+    "npm_config_timing": "",
+    "npm_config_init_license": "ISC",
+    "Apple_PubSub_Socket_Render": "/private/tmp/com.apple.launchd.xQTQtRd59D/Render",
+    "npm_config_if_present": "",
+    "TERM_PROGRAM_VERSION": "1.44.0",
+    "npm_package_dependencies_mocha_multi": "^1.0.1",
+    "npm_config_sign_git_tag": "",
+    "npm_config_init_author_email": "",
+    "npm_config_cache_max": "Infinity",
+    "BUNDLER_ORIG_BUNDLER_VERSION": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+    "npm_config_preid": "",
+    "npm_config_long": "",
+    "npm_config_local_address": "",
+    "npm_config_git_tag_version": "true",
+    "npm_config_cert": "",
+    "TERM_SESSION_ID": "45AD3B08-36CB-4323-BB52-A1C21DED9F36",
+    "MY_RUBY_HOME": "/Users/richardbobo/.rvm/rubies/ruby-2.6.1",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_noproxy": "",
+    "npm_config_fetch_retries": "2",
+    "npm_package_dependencies__babel_preset_env": "^7.4.5",
+    "npm_package_repository_url": "git+https://github.com/learn-co-curriculum/js-looping-and-iteration-looping-code-along.git",
+    "npm_config_versions": "",
+    "npm_config_message": "%s",
+    "npm_config_key": "",
+    "npm_package_readmeFilename": "README.md",
+    "GIT_EDITOR": "code",
+    "npm_package_description": "Learn.co's introduction to looping in JavaScript.",
+    "USER": "richardbobo",
+    "SVN_EDITOR": "code",
+    "NVM_DIR": "/Users/richardbobo/.nvm",
+    "npm_package_license": "SEE LICENSE IN LICENSE.md",
+    "USR_PATHS": "/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin",
+    "npm_config_globalconfig": "/Users/richardbobo/.nvm/versions/node/v13.10.1/etc/npmrc",
+    "npm_config_prefer_online": "",
+    "npm_config_logs_max": "10",
+    "npm_config_always_auth": "",
+    "rvm_path": "/Users/richardbobo/.rvm",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.zrNCmEFwsR/Listeners",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
+    "npm_execpath": "/Users/richardbobo/.nvm/versions/node/v13.10.1/lib/node_modules/npm/bin/npm-cli.js",
+    "npm_config_global_style": "",
+    "npm_config_cache_lock_retries": "10",
+    "npm_config_update_notifier": "true",
+    "npm_config_cafile": "",
+    "npm_package_author_name": "Flatiron School",
+    "BUNDLER_ORIG_RUBYLIB": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+    "npm_config_heading": "npm",
+    "npm_config_audit_level": "low",
+    "npm_config_searchlimit": "20",
+    "npm_config_read_only": "",
+    "npm_config_offline": "",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "BUNDLER_ORIG_RUBYOPT": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+    "rvm_prefix": "/Users/richardbobo",
+    "npm_config_json": "",
+    "npm_config_access": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"test\"],\"original\":[\"test\"]}",
+    "PATH": "/Users/richardbobo/.nvm/versions/node/v13.10.1/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/richardbobo/Development/Mod3/js-looping-and-iteration-looping-code-along-dc-web-030920/node_modules/.bin:/Users/richardbobo/.rvm/gems/ruby-2.6.1/bin:/Users/richardbobo/.rvm/gems/ruby-2.6.1@global/bin:/Users/richardbobo/.rvm/rubies/ruby-2.6.1/bin:/Users/richardbobo/.nvm/versions/node/v13.10.1/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/richardbobo/.rvm/gems/ruby-2.6.1/bin:/Users/richardbobo/.rvm/gems/ruby-2.6.1@global/bin:/Users/richardbobo/.rvm/rubies/ruby-2.6.1/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local:/usr/local/sbin:/Users/richardbobo/.rvm/bin:/Users/richardbobo/.rvm/bin",
+    "npm_config_allow_same_version": "",
+    "npm_package_dependencies__babel_core": "^7.4.5",
+    "npm_config_https_proxy": "",
+    "npm_config_engine_strict": "",
+    "npm_config_description": "true",
+    "_": "/Users/richardbobo/Development/Mod3/js-looping-and-iteration-looping-code-along-dc-web-030920/node_modules/.bin/mocha",
+    "npm_config_userconfig": "/Users/richardbobo/.npmrc",
+    "npm_config_init_module": "/Users/richardbobo/.npm-init.js",
+    "npm_package_dependencies_jsdom": "^9.0",
+    "npm_package_keywords_4": "looping",
+    "npm_config_cidr": "",
+    "npm_package_dependencies_file_system": "^2.2.2",
+    "npm_package_keywords_5": "learn.co",
+    "PWD": "/Users/richardbobo/Development/Mod3/js-looping-and-iteration-looping-code-along-dc-web-030920",
+    "npm_config_user": "501",
+    "npm_config_node_version": "13.10.1",
+    "npm_package_bugs_url": "https://github.com/learn-co-curriculum/js-looping-and-iteration-looping-code-along/issues",
+    "npm_package_keywords_6": "flatiron school",
+    "npm_lifecycle_event": "test",
+    "npm_package_keywords_7": "code-along",
+    "EDITOR": "code",
+    "npm_config_save": "true",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_editor": "code",
+    "npm_config_auth_type": "legacy",
+    "npm_package_keywords_0": "javascript",
+    "npm_package_repository_type": "git",
+    "npm_package_name": "js-looping-and-iteration-looping-code-along",
+    "BUNDLER_ORIG_GEM_PATH": "/Users/richardbobo/.rvm/gems/ruby-2.6.1:/Users/richardbobo/.rvm/gems/ruby-2.6.1@global",
+    "LANG": "en_US.UTF-8",
+    "npm_config_tag": "latest",
+    "npm_config_script_shell": "",
+    "npm_package_keywords_1": "for",
+    "npm_config_progress": "true",
+    "npm_config_global": "",
+    "npm_config_before": "",
+    "npm_package_dependencies_chai": "^4.2.0",
+    "npm_package_keywords_2": "while",
+    "NODE_PATH": "/usr/local/lib/node_modules:/usr/local/lib/node_modules:",
+    "npm_config_searchstaleness": "900",
+    "npm_config_optional": "true",
+    "npm_config_ham_it_up": "",
+    "npm_package_keywords_3": "loops",
+    "XPC_FLAGS": "0x0",
+    "npm_config_save_prod": "",
+    "npm_config_force": "",
+    "npm_config_bin_links": "true",
+    "npm_config_searchopts": "",
+    "GIT_MERGE_AUTOEDIT": "no",
+    "npm_config_node_gyp": "/Users/richardbobo/.nvm/versions/node/v13.10.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "npm_config_depth": "Infinity",
+    "npm_package_main": "index.js",
+    "npm_config_sso_poll_frequency": "500",
+    "npm_config_rebuild_bundle": "true",
+    "npm_package_dependencies_mocha_jsdom": "~1.1.0",
+    "npm_package_version": "0.1.0",
+    "XPC_SERVICE_NAME": "0",
+    "npm_config_unicode": "true",
+    "rvm_version": "1.29.9-next (master)",
+    "HOME": "/Users/richardbobo",
+    "SHLVL": "4",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_package_scripts_test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "npm_config_tag_version_prefix": "v",
+    "npm_config_strict_ssl": "true",
+    "npm_config_sso_type": "oauth",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "npm_config_save_prefix": "^",
+    "npm_config_loglevel": "notice",
+    "npm_config_ca": "",
+    "npm_config_save_exact": "",
+    "npm_config_group": "20",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_dev": "",
+    "npm_config_version": "",
+    "npm_config_prefer_offline": "",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_otp": "",
+    "npm_config_cache_min": "10",
+    "npm_package_dependencies_sinon": "^7.3.1",
+    "npm_config_searchexclude": "",
+    "npm_config_cache": "/Users/richardbobo/.npm",
+    "BUNDLER_ORIG_BUNDLE_GEMFILE": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+    "LOGNAME": "richardbobo",
+    "npm_lifecycle_script": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
+    "npm_config_color": "true",
+    "VISUAL": "code",
+    "npm_config_proxy": "",
+    "npm_config_package_lock": "true",
+    "GEM_PATH": "/Users/richardbobo/.rvm/gems/ruby-2.6.1:/Users/richardbobo/.rvm/gems/ruby-2.6.1@global",
+    "npm_config_package_lock_only": "",
+    "npm_config_fund": "true",
+    "npm_config_save_optional": "",
+    "NVM_BIN": "/Users/richardbobo/.nvm/versions/node/v13.10.1/bin",
+    "npm_config_ignore_scripts": "",
+    "npm_config_user_agent": "npm/6.13.7 node/v13.10.1 darwin x64",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_config_production": "",
+    "FLATIRON_VERSION": "1.1.1",
+    "npm_config_send_metrics": "",
+    "npm_config_save_bundle": "",
+    "BUNDLER_ORIG_BUNDLE_BIN_PATH": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+    "npm_config_umask": "0022",
+    "npm_config_node_options": "",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_init_author_name": "",
+    "npm_config_git": "git",
+    "npm_config_scope": "",
+    "BUNDLER_ORIG_RB_USER_INSTALL": "BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL",
+    "RUBY_VERSION": "ruby-2.6.1",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_tmp": "/var/folders/_5/978s8s7115q3p4c4rzq7sd400000gn/T",
+    "npm_config_onload_script": "",
+    "npm_node_execpath": "/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node",
+    "npm_config_prefix": "/Users/richardbobo/.nvm/versions/node/v13.10.1",
+    "npm_config_link": "",
+    "npm_config_format_package_lock": "true",
+    "COLORTERM": "truecolor",
+    "LOADED_MOCHA_OPTS": "true"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 49152,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 67104768
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 2837,
+      "hard": 4256
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/Users/richardbobo/.nvm/versions/node/v13.10.1/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libDiagnosticMessagesClient.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/liblaunch.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib"
+  ]
+}
